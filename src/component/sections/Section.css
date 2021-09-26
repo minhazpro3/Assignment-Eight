@@ -1,0 +1,27 @@
+.section-div{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+}
+
+.cart{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    
+}
+.cart img{
+    padding: 5px;
+    border: 1px solid rgb(143, 141, 141);
+    border-radius: 20px;
+    
+}
+
+@media screen and (max-width: 700px) {
+    .cart{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+        
+    }
+  }

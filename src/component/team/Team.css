@@ -1,0 +1,16 @@
+.data-img{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 3px 2px 13px 3px gray;
+}
+
+.data-img img {
+    width: 70px;
+    border-radius: 50px;
+    
+
+}
